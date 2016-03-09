@@ -1,0 +1,36 @@
+{
+  "name": "speech.js",
+  "version": "0.1.0",
+  "description": "High level browser speech synthesis / recognition API wrapper library",
+  "main": "",
+  "authors": [
+    "Anton Ivanov"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "speech",
+    "voice",
+    "speech API",
+    "SpeechRecognition",
+    "SpeechSynthesis",
+    "speech recognition",
+    "speech synthesis"
+  ],
+  "homepage": "https://github.com/antivanov/speech.js",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "main": [
+    "src/speech.js",
+    "speech.js",
+    "speech.min.js"
+  ],
+  "devDependencies": {
+    "requirejs": "~2.1.22"
+  }
+}
